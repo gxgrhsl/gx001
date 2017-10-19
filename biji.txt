@@ -1,6 +1,27 @@
+                                                 
                                                  Git常见命令
+                                                 
+   
+概念：分布式版本控制工具                                   (廖雪峰的官方网站)
+                                                       
+三种版本管理系统：1.本地版本   2.集中式版本   3.分布式版本
 
- git init       创建git仓库
+设置： git config --global user.name("名字")  +  回车键
+     git config --global user.email("邮箱")  +  回车键
+     
+查看： git config --global        
+     git config --global
+
+ git init       创建git仓库  (git是一个隐藏的文件)
+ 
+  把项目列表添加到git仓库两步骤：       git add 文件名                 git commit -m "备注"
+   
+ git log       查看日志
+ 
+ git reflog    查看之前版本
+ 
+ git add -A 或 *  全部添加
+ 
  pwd            (Print Working Directory) 查看当前目录
 
  cd             (Change Directory) 切换目录，如 cd /etc
