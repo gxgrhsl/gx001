@@ -1,0 +1,164 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+}
+.inp{
+    display: flex;
+    position: relative;
+    span{
+        z-index: 10;
+        font-size: 18px;
+        position: absolute;
+        top:20px;
+        left: 80px;  
+    }
+    input{
+        z-index: 11;
+        width: 70%;
+        height: 30px;
+        border-radius:20px;
+        text-align: center;
+        line-height: 40px;
+        border: none;
+        outline: none;
+        background: rgba(255,255,255,0.8);
+        font:500 18px "黑体";
+        position: fixed;
+        top: 15px;
+        left: 50px;
+    }
+}
+input::-webkit-input-placeholder{
+    color: #ccc;
+}
+//轮播
+.swiper-container img{
+    width: 100%;
+    height: 100%;
+    
+}
+//图片+文字
+.con{
+    width: 100%;
+    height: 170px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:center;
+    text-align: center; 
+    border-bottom: 10px solid #F2F2F2;
+    figure{
+        width: 20%;
+        height: 80px;
+        padding: 10px 10px;
+        figcaption{
+            font-size: 13px;
+        }
+        img{
+            width: 40px;
+            height: 40px;
+        }
+    }
+    
+}
+//热门菜谱
+//红烧排骨
+.bbox{
+    h4{
+       text-align: center;
+    }
+    .bb{
+       width: 100%;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       text-align: center;
+       border-bottom: 1px solid gainsboro;
+       padding: 5px;
+           span{
+               width: 30%;
+               img{
+                   width: 95%;
+                   vertical-align: top;
+               }
+           } 
+           div{
+               width: 65%;
+               text-align: left;
+               font-size: 12px;
+               
+               h5{
+                   margin: 0;
+                   padding: 0;
+               }
+               p{
+                   color: #999;
+                   padding: 0;
+                   margin: 0;
+                   font-size: 14px;
+               }
+        }
+    }     
+} 
+//蔬菜拌面   
+.bbox1{
+    border-bottom: 10px solid #F2F2F2;
+    h4{
+       text-align: center;
+    }
+    .bb{
+       width: 100%;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       text-align: center;
+       border-bottom: 1px solid gainsboro;
+       padding: 5px;
+       span{
+           width: 30%;
+           img{
+               width: 95%;
+               vertical-align: top;
+           }
+       } 
+       div{
+           width: 65%;
+           text-align: left;
+           font-size: 12px;
+           h5{
+               margin: 0;
+               padding: 0;
+           }
+           p{
+               color: #999;
+               padding: 0;
+               margin: 0;
+               font-size: 14px;
+           }
+       }
+    }   
+}             
+//为你优选   样式同bbox
+//底部
+.di{
+    width: 100%;
+    height: 65px;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    bottom: 0;
+    figure{
+        width: 25%;
+       figcaption{
+           margin-top: 5px;
+           font-size: 14px;
+       } 
+    }
+    img{
+        height: 30px;
+    }
+}

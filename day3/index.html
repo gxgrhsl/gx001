@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/swiper.min.js"></script>
+		<script src="bootstrap/js/jquery-3.1.1.min.js"></script>
+		<script src="bootstrap/js/bootstrap.js"></script>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
+		<link rel="stylesheet" href="css/swiper.min.css"/>
+		<script src="js/iscroll-probe.js"></script>
+		
+		<link rel="stylesheet" href="index.css"/>
+	</head>
+	<body>
+		<!--头部-->
+		
+		
+		<!--搜索框-->
+		<div class="inp">
+			<span class="glyphicon glyphicon-search"></span>
+		    <input type="search" placeholder="搜索今日最新推荐"/>
+		</div>
+		
+		<!--轮播内容-->
+		<div class="swiper-container" id="swp">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="img/barent.png" alt="" /></div>
+				<div class="swiper-slide"><img src="img/barent.png" alt="" /></div>
+				<div class="swiper-slide"><img src="img/barent.png" alt="" /></div>
+				<div class="swiper-slide"><img src="img/barent.png" alt="" /></div>
+			</div>
+			<!--分页器-->
+			<!--<div class="swiper-pagination"></div>-->
+		</div>
+	   <!--图片+文字-->
+	    <div class="con">
+			<figure>
+				<img src="img/index_07.png"/>
+				<figcaption>美食</figcaption>	    
+			</figure>
+			<figure>
+				<img src="img/index_09.png"/>
+				<figcaption>水果</figcaption>	    
+			</figure>
+			<figure>
+				<img src="img/index_11.png"/>
+				<figcaption>干货</figcaption>	    
+			</figure>
+			<figure>
+				<img src="img/index_13.png"/>
+				<figcaption>营养师</figcaption>	    
+			</figure>
+			<figure>
+				<img src="img/index_15.png"/>
+				<figcaption>外卖</figcaption>	    
+			</figure>
+			<figure>
+				<img src="img/index_22.png"/>
+				<figcaption>定时</figcaption>	    
+			</figure>
+			<figure>
+				<img src="img/index_23.png"/>
+				<figcaption>定制菜谱</figcaption>	    
+			</figure>
+			<figure>
+				<img src="img/项目首页，牛_03.png"/>
+				<figcaption>月子餐</figcaption>	    
+			</figure>
+			<figure>
+				<img src="img/项目首页，牛_06.png"/>
+				<figcaption>甜点</figcaption>	    
+			</figure>
+			<figure>
+				<img src="img/项目首页，牛_08.png"/>
+				<figcaption>更多</figcaption>	    
+			</figure>
+		</div>
+		<!--热门菜谱-->
+		<!--红烧排骨-->
+		<div class="bbox">
+			<h4>—  热门菜谱    BEST  —</h4>
+			<div class="bb">
+				<span><img src="img/index_27.png"/></span>
+				<div>
+					<h5><b>红烧排骨</b></h5>
+					<p>猪排骨提供人体生理活动的优质蛋白。脂肪，尤其是丰富的钙质</p>
+				</div>
+			</div>
+		</div>
+		<!--蔬菜拌面-->
+		<div class="bbox1">
+			<div class="bb">
+				<span><img src="img/index_30.png"/></span>
+				<div>
+					<h5><b>蔬菜拌面</b></h5>
+					<p>猪排骨提供人体生理活动的优质蛋白。脂肪，尤其是丰富的钙质</p>
+				</div>
+			</div>
+		</div>
+		<!--为你优选-->
+		<div class="bbox">
+			<h4>—  为你优选    BEST  —</h4>
+			<div class="bb">
+				<span><img src="img/index_30.png"/></span>
+				<span><img src="img/index_32.png"/></span>
+				<span><img src="img/index_34.png"/></span>
+			</div>
+		</div>
+		<!--底部-->
+        <div class="di">
+			<figure>
+				<img src="img/index_41.png"/>
+				<figcaption style="color: red;">首页</figcaption>	    
+			</figure>
+			<figure>
+				<img src="img/index_43.png"/>
+				<figcaption>发现</figcaption>
+			</figure>
+			<figure>
+				<img src="img/index_45.png"/>
+				<figcaption>视频</figcaption>
+			</figure>
+			<figure>
+				<img src="img/index_47.png"/>
+				<figcaption>社区</figcaption>
+			</figure>
+			<figure>
+			    <img src="img/index_49.png"/>
+				<figcaption>我的</figcaption>
+			</figure>
+		</div>
+	</body>
+	<script type="text/javascript">
+		//轮播初始化
+			var swp = new Swiper("#swp",{
+				autoplay:1000,
+				loop:true,
+				speed:1000
+//				pagination:".swiper-pagination",
+//				paginationClickable :true
+			})
+	</script>
+</html>
